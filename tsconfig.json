@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",  //컴파일할 자바스크립트 버전
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"],   // 어떤 파일이 컴파일 과정에 포함될 건지 지정
+    "exclude": ["node_modules"] // 컴파일에서 제외
+}
